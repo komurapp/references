@@ -1,8 +1,14 @@
-# Useful links
+# Developer's References
 
-## Linux
+A compilation of relative common tasks/problems of daily web development on Linux.
 
-### Ubuntu
+Simplifies the start up on Linux-based machines
+
+> Mostly tested on **Mint**, therefore **Ubuntu** users can also follow this.
+
+Most of projects had used at least one of the following: React, Flutter, Go, Postgres or Docker.
+
+## Ubuntu
 
 TODO: pullout the desired commands to this section
 - Fabio Akita's [Definitive Ubuntu's guide](https://www.youtube.com/watch?v=epiyExCyb2s)
@@ -15,23 +21,13 @@ TODO: pullout the desired commands to this section
 
 - Private/Public key; SSH key Ed25519
 
-- tmux
+## Docker
 
-- zsh
+- "Version in “./docker-compose.yml” is unsupported. You might be seeing this error because you're using the wrong Compose file version": [SOLUTION](https://stackoverflow.com/questions/42139982/version-in-docker-compose-yml-is-unsupported-you-might-be-seeing-this-error)
 
--vim
-
-### Mint
-
-#### Docker
-
-- "Version in “./docker-compose.yml” is unsupported. You might be seeing this error because you're using the wrong Compose file version"
-
-[link](https://stackoverflow.com/questions/42139982/version-in-docker-compose-yml-is-unsupported-you-might-be-seeing-this-error)
+- Good explanation from [McLeod](https://github.com/GoesToEleven/golang-web-dev/tree/master/043_docker/01_about-containers)
 
 - Installing Docker - [the painless way](https://linuxhint.com/install_docker_linux_mint/)
 
-#### Vim/Neovim
-
-- my [.dotfiles](https://github.com/rongzinho/dotfiles) with bash, tmux, VS
-  Code, nvim and git preferences.
+## TypeScript
+[README.md](https://github.com/komurapp/references/typescript/README.md)
