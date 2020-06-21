@@ -30,4 +30,4 @@ TODO: pullout the desired commands to this section
 - Installing Docker - [the painless way](https://linuxhint.com/install_docker_linux_mint/)
 
 ## TypeScript
-[README.md](https://github.com/komurapp/references/typescript/README.md)
+[README.md](https://github.com/komurapp/references/blob/master/typescript/README.md)
