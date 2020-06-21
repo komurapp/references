@@ -1,5 +1,13 @@
 # Useful links
 
+A compilation of relative common tasks/problems of daily web development on Linux.
+
+Simplifies the start up on Linux-based machines
+
+Mostly tested on **Mint**, therefore **Ubuntu** users can also follow this.
+
+Most of projects had used at least one of the following: React, Flutter, Go, Postgres or Docker.
+
 ## Ubuntu
 
 TODO: pullout the desired commands to this section
@@ -29,10 +37,12 @@ TODO: pullout the desired commands to this section
 
 ## Vim/Neovim
 
-- my [.dotfiles](https://github.com/rongzinho/dotfiles) with bash, tmux, VS
+- my [.dotfiles](https://github.com/komurapp/dotfiles) with bash, tmux, VS
   Code, nvim and git preferences.
 
 ## TypeScript
+
+### Installation
 
 - Global installation using [yarn](https://classic.yarnpkg.com/en/docs/cli/global/)
 
