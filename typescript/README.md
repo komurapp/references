@@ -5,7 +5,7 @@ For testing purposes, there's an official [sandbox](https://www.typescriptlang.o
 
 - [Academind](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 
-- [tsconfig.json](https://github.com/komurapp/references/typescript/tsconfig.json) example.
+- [tsconfig.json](https://raw.githubusercontent.com/komurapp/references/master/typescript/tsconfig.json) example.
 
 ## Installation
 
