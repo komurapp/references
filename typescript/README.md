@@ -12,34 +12,41 @@ For testing purposes, there's an official [sandbox](https://www.typescriptlang.o
 - Global installation using [yarn](https://classic.yarnpkg.com/en/docs/cli/global/)
 
 - Include at your `zsh` file, if **not** automatically detected
+
+```bash
+  export PATH="$(yarn global bin):$PATH"
 ```
-export PATH="$(yarn global bin):$PATH"
-```
+
 - Then, source it
-```
-. ~/.zsh
+
+```bash
+  . ~/.zsh
 ```
 
 ## Simple server, with *hot reload* and *watch mode*:
 i.e. changing `.ts` files will update your `.js` generated files and trigger an reload of your server. *That's beautiful*.
 
 - At your project's root folder
-```
-yarn init
+
+```bash
+  yarn init
 ```
 
-	to generate package configuration.
+to generate package configuration.
 
-	> Note yarn will create `package.json`, `package-lock.json` and `node_modules/`.
+> Note yarn will create `package.json`, `package-lock.json` and `node_modules/`.
 
 - Answer the  prompted questions, then install it
-```
-yarn add lite-server --dev
+
+```bash
+
+  yarn add lite-server --dev
 ```
 
 - Create the `start` script by adding `"start": "lite-server"` to `"scripts"`, inside `package.json`.
 
-	It should looks like this
+It should looks like this
+
 ```json
 {
     "name": "some-typescript-project",
@@ -56,32 +63,34 @@ yarn add lite-server --dev
 ```
 
 - Open another terminal and config TS compiler
-```
-tsc --init
+
+```bash
+  tsc --init
 ```
 
-	> Note that tsc generates an configuration file `tsconfig.json`.
+> Note that tsc generates an configuration file `tsconfig.json`.
 
-	then start *watch mode*
-```
-tsc -w
-// or
-tsc --watch
+then start *watch mode*
+
+```bash
+  tsc -w
+  // or
+  tsc --watch
 ```
 
 ## Debugging at the browser
 
 - Set `"sourceMap": true` at `tsconfig.json` to see `.ts` files at `Sources` tab.
 
-	> It will generate `.js.map` files to each `.ts` files.
+> It will generate `.js.map` files to each `.ts` files.
 
 ## Control generated-only directories
 
 Mirror the `.ts` file structure into a separate directory.
 
 - Create `src/` and `dist/` folders on the root of the project
-```
-mkdir src dist
+```bash
+  mkdir src dist
 ```
 
 - Set **input** and **output** folders by setting `"outDir": "./dist"` and `"rootDir": "./src"`.
