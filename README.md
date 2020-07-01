@@ -17,8 +17,6 @@ TODO: pullout the desired commands to this section
 
 - asdf
 
-- Postgres
-
 - Private/Public key; SSH key Ed25519
 
 ## Docker
@@ -34,3 +32,6 @@ TODO: pullout the desired commands to this section
 
 ## Go
 [README.md](https://github.com/komurapp/references/blob/master/go/README.md)
+
+## PostgreSQL
+[README.md](https://github.com/komurapp/references/blob/master/postgres/README.md)
