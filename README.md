@@ -8,7 +8,11 @@ Simplifies the start up on Linux-based machines
 
 Most of projects had used at least one of the following: React, Flutter, Go, Postgres or Docker.
 
-## Ubuntu
+## General
+
+- Developer career's overview (pt-BR) --> [Fluterando's 12th Meetup](https://www.youtube.com/watch?v=bPoJxEs7hqQ)
+
+## Ubuntu...ish
 
 TODO: pullout the desired commands to this section
 - Fabio Akita's [Definitive Ubuntu's guide](https://www.youtube.com/watch?v=epiyExCyb2s)
